@@ -1,0 +1,16 @@
+{
+  "name": "thali-tracker",
+  "version": "1.0.0",
+  "description": "Thali — an Indian-first, mobile-first PWA daily food tracker backed by SQLite",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "icons": "node scripts/make-icons.js"
+  }
+}
